@@ -23,7 +23,7 @@ const getMoviedata =()=>{
    },[])
 
 const Search=(data)=>{
-   return data.filter(data=> data.Title.toString().toLowerCase().indexOf(q)> -1)
+   return data.filter(data=> data.Title[0].toString().toLowerCase().indexOf(q)> -1)
  console.log(q)
   
 }
