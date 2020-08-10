@@ -1,0 +1,12 @@
+html {
+  margin: 0;
+}
+.root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(226, 53, 53)
+}
+.app {
+  /* background-color: rgb(233, 222, 163) */
+}
